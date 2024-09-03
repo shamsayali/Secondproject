@@ -1,8 +1,4 @@
 <?php 
-require 'connection.php';
-if(!empty($_SESSION["reg"])){
-  header("location:inst.php");
-}
 $nameerror="";
 if(isset($_POST['submit'])){
   $reg = $_POST['reg'];
